@@ -82,6 +82,11 @@ h1 {
     font-size: 2.3rem;
     line-height: 3rem
 }
+
+.fa-whatsapp{
+    font-size: large;
+}
+
 @media only screen and (max-width:500px) {
     .elfsight-app-844e85ea-0143-412a-9154-93cd04d325dd{
         margin-right: 50%;
