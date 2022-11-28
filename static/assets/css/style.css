@@ -82,6 +82,12 @@ h1 {
     font-size: 2.3rem;
     line-height: 3rem
 }
+@media only screen and (max-width:500px) {
+    .elfsight-app-844e85ea-0143-412a-9154-93cd04d325dd{
+        margin-right: 50%;
+    }
+}
+
 
 @media only screen and (min-width:576px) {
     .h1,
