@@ -13,7 +13,7 @@ header .head{
     background: coral;
 }
 .style2 .text-white:hover{
-    color: coral;
+    color: #3BACB6;
 }
 .header__menu--items .header__menu--link:hover{
     color: coral;
