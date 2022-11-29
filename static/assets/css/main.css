@@ -1,141 +1,141 @@
 
 /* HEADER */
 header .head{
-    background: coral;
+    background: #3bacb6;
 }
 .header__account--btn:hover{
-    color: coral;
+    color: #3bacb6;
 }
 .header__account--btn .items__count {
-    background: coral;
+    background: #3bacb6;
 }
 .header__search--box .header__search--button{
-    background: coral;
+    background: #3bacb6;
 }
 .style2 .text-white:hover{
     color: #3BACB6;
 }
 .header__menu--items .header__menu--link:hover{
-    color: coral;
+    color: #3BACB6;
 }
 .offcanvas__stikcy--toolbar__list .offcanvas__stikcy--toolbar__icon{
-    background: coral;
+    background: #3bacb6;
 }
 .offcanvas__stikcy--toolbar__label .items__count{
-    background: coral;
+    background: #3bacb6;
 }
 .minicart__conditions--link{
-    color: coral;
+    color: #3bacb6;
 }
 .minicart__button--link{
-    background: coral;
+    background: #3bacb6;
 }
 .offcanvas__menu_li .offcanvas__menu_item:hover{
-    background: coral;
+    background: #3BACB6;
 }
 .offcanvas__account--items__icon{
-    background: coral;
+    background: #3bacb6;
 }
 .predictive__search--button{
-    background: coral;
+    background: #3bacb6;
 }
 /* END OF HEADER */
 
 /* SLIDER */
 .slider__content .primary__btn{
-    background: coral;
+    background: #3bacb6;
 }
 .swiper__nav--btn{
-    background: coral;
+    background: #3bacb6;
 }
 /* END OF SLIDER */
 /* SHIPPING */
 .shipping__style3--icon svg{
-    color: coral;
+    color: #3bacb6;
 }
 .readcrumb__content--menu__items a:hover{
-    color: coral;
+    color: #3bacb6;
 }
 .readcrumb__content--menu__items span:hover{
-    color: coral;
+    color: #3bacb6;
 }
 /* END OF SHIPPING */
 /* NEW PRODUCTS */
 .section__heading--maintitle::before{
-    color: coral;
+    color: #3bacb6;
 }
 .product__tab--primary__btn__list{
-    color: coral;
+    color: #3bacb6;
 }
 .product__items--action__list .product__items--action__btn:hover{
-    background: coral;
+    background: #3bacb6;
 }
 .pagination__list .pagination__item:hover{
-    background: coral;
-    border: coral;
+    background: #3bacb6;
+    border: #3bacb6;
 }
 .pagination__list .pagination__item--current{
-    background: coral;
-    border: coral;
+    background: #3bacb6;
+    border: #3bacb6;
 
 }
 .product__grid--column__buttons .active{
-    color: coral;
-    border: 0.5px solid coral;
+    color: #3bacb6;
+    border: 0.5px solid #3bacb6;
 }
 .product__grid--column__buttons--icons:hover{
-    border: 0.5px solid coral;
-    color: coral;
+    border: 0.5px solid #3bacb6;
+    color: #3bacb6;
 }
 .product__view--search__form .product__view--search__btn{
-    background: coral;
+    background: #3bacb6;
 }
 .widget__tagcloud--list .widget__tagcloud--link:hover{
-    background: coral;
-    border-color: coral;
+    background: #3bacb6;
+    border-color: #3bacb6;
 }
 .price__filter--btn{
-    background: coral;
+    background: #3bacb6;
 }
 .pagination__item--arrow:hover{
-    color: coral;
+    color: #3bacb6;
 }
 .product__list--items__content--title .prod-details:hover{
-    color: coral;
+    color: #3bacb6;
 }
 /* END OF NEW PRODUCTS */
 /* NEW COLLECTION */
 .btn__style3{
-    background: coral;
+    background: #3bacb6;
 }
 .new__product--content .new__product--content__title a:hover{
-    color: coral;
+    color: #3bacb6;
 }
 .new__product--thumbnail__link .new__product--thumbnail__img:hover{
-    color: coral;
+    color: #3bacb6;
 }
 /* END OF NEW PRODUCTS */
 /* BANNER  */
 .banner__items--content .banner__items--content__link:hover{
-    color: coral;
+    color: #3bacb6;
 }
 /* END OF BANNER */
 /* FOOTER */
 .newsletter__subscribe--button{
-    background: coral;
+    background: #3bacb6;
 }
 /* END OF FOOTER */
 /* NEWSLETTER */
 .newsletter__popup--close__btn{
-    background: coral;
+    background: #3bacb6;
 }
 .newsletter__popup--subscribe__btn{
-    background: coral;
+    background: #3bacb6;
 }
 /* END OF NEWSLETTER */
 /* SCROLLTOP */
 #scroll__top{
-    background: coral;
+    background: #3BACB6;
 }
 /* END OF SCROLLTOP */
 
@@ -152,28 +152,28 @@ header .head{
     object-fit: cover;
 }
 .product__media--view__icon--link{
-    background: coral;
+    background: #3bacb6;
 }
 .variant__buy--now__btn{
-    background: coral;
+    background: #3bacb6;
 }
 .quickview__cart--btn{
-    background: coral;
+    background: #3bacb6;
 }
 .quickview__social--icon{
-    background: coral;
+    background: #3bacb6;
 }
 .variant__size--value:hover{
-    color: coral;
+    color: #3bacb6;
 }
 .product__details--tab .active{
-    color: coral;
+    color: #3bacb6;
 }
 .reviews__summary--caption{
-    color: coral;
+    color: #3bacb6;
 }
 .primary__btn{
-    background: coral;
+    background: #3bacb6;
 }
 .product__items--link .product__items--img{
     max-width: 100%;
