@@ -386,6 +386,26 @@ hr {
     padding-left: var(--offset-fluid)
 }
 
+.alchemist{
+    font-size: smaller;
+}
+.emist{
+    color: #fff;
+}
+
+@media only screen and (max-width:500px) {
+    .alchemist{
+        margin-top: 15%;
+    }
+    .alc{
+        font-size: smaller;
+        text-align: center;
+    }
+    .emist{
+        color: #fff;
+    }
+}
+
 @media only screen and (min-width:992px) {
     .container-fluid {
         --offset-fluid: 3rem
