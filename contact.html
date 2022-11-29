@@ -30,75 +30,105 @@
     <script src="https://apps.elfsight.com/p/platform.js" defer></script>
 <div class="elfsight-app-844e85ea-0143-412a-9154-93cd04d325dd"></div>
 
-   <!-- Start header area -->
-   <header class="header__section">
-        
-        <div class="main__header header__sticky">
-            <div class="container-fluid">
-                <div class="main__header--inner position__relative d-flex justify-content-between align-items-center">
-                    <div class="header__menu d-none header__sticky--block d-lg-block">
-                        <nav class="header__menu--navigation">
-                            <ul class="d-flex">
-                                <li class="header__menu--items style2">
-                                    <a class="header__menu--link" href="./index.html">Home 
-                                </li>
-                                <li class="header__menu--items mega__menu--items style2">
-                                    <a class="header__menu--link" href="./about.html">What is Erdem? 
-                                    </a>
-                                </li>
-                                <li class="header__menu--items style2 d-none d-xl-block">
-                                    <a class="header__menu--link" href="./solution.html">Solutions </a>  
-                                </li>
-                                <li class="header__menu--items style2">
-                                    <a class="header__menu--link" href="./contact.html">Contact us</a>  
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="main__header header__sticky">
-            <div class="container-fluid">
-                <div class="main__header--inner position__relative d-flex justify-content-between align-items-center">
-                    <div class="offcanvas__header--menu__open ">
-                        <a class="offcanvas__header--menu__open--btn" href="javascript:void(0)" data-offcanvas>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon offcanvas__header--menu__open--svg" viewBox="0 0 512 512"><path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M80 160h352M80 256h352M80 352h352"/></svg>
-                            <span class="visually-hidden">Menu Open</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
+<style>
+    .grrt{
+            display: none;
+        }
 
-       <!-- Start Offcanvas header menu -->
-       <div class="offcanvas-header">
-        <div class="offcanvas__inner">
-            <div class="offcanvas__logo">
-                <a class="offcanvas__logo_link" href="./index.html">
-                    <img src="static/assets/img/logo/Erdemlogo1.png" alt="erdem Logo" width="158" height="36">
-                </a>
-                <button class="offcanvas__close--btn" data-offcanvas>close</button>
-            </div>
-            <nav class="offcanvas__menu">
-                <ul class="offcanvas__menu_ul">
-                    <li class="offcanvas__menu_li">
-                        <a class="offcanvas__menu_item" href="./index.html">Home</a>
-                    </li>
-                    <li class="offcanvas__menu_li">
-                        <a class="offcanvas__menu_item" href="./about.html">What is Erdem?</a>
-                    </li>
-                    <li class="offcanvas__menu_li"><a class="offcanvas__menu_item"
-                            href="./solution.html">Solutions</a></li>
-                    <li class="offcanvas__menu_li"><a class="offcanvas__menu_item"
-                            href="./contact.html">Contact Us</a></li>
-                </ul>
+@media(max-width: 1000px) {
+        .grrt{
+        display: contents;
+        }
+
+        .popo{
+            margin-bottom: 5%;
+        }
+        .erdem{
+            margin-right: 5%;
+        }
+        .top{
+            font-size: xx-large;
+            font-weight: 800;
+            color: #3BACB6;
+        }
+    }
+</style>
+
+    <!-- Start header area -->
+  <header class="header__section">
+    <div class="main__header header__sticky">
+      <div class="container-fluid">
+        <div class="main__header--inner position__relative d-flex justify-content-between align-items-center">
+          <div class="header__search--widget header__sticky--none d-none d-lg-block">
+          <div class="header__menu d-none header__sticky--block d-lg-block">
+            <nav class="header__menu--navigation">
+              <ul class="d-flex">
+                <li class="header__menu--items style2">
+                  <a class="header__menu--link" href="./index.html">Home
+                  </a>
+                </li>
+                <li class="header__menu--items style2">
+                  <a class="header__menu--link" href="./about.html">What is Erdem?
+                  </a>
+                </li>
+                <li class="header__menu--items style2 d-none d-xl-block">
+                  <a class="header__menu--link" href="./solution.html">Solutions
+                  </a>
+                </li>
+                <li class="header__menu--items style2">
+                  <a class="header__menu--link" href="./contact.html">Contact Us
+                  </a>
+                </li>
+              </ul>
             </nav>
+          </div>
         </div>
+      </div>
     </div>
-    <!-- End Offcanvas header menu -->
-    </header>
-    <!-- End header area -->
+    <div class="main__header grrt header__sticky">
+      <div class="container-fluid">
+          <div class="main__header--inner position__relative d-flex justify-content-between align-items-center">
+              <div class="offcanvas__header--menu__open ">
+                  <a class="offcanvas__header--menu__open--btn" href="javascript:void(0)" data-offcanvas>
+                      <svg xmlns="http://www.w3.org/2000/svg" class="ionicon offcanvas__header--menu__open--svg" viewBox="0 0 512 512"><path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M80 160h352M80 256h352M80 352h352"/></svg>
+                      <span class="visually-hidden">Menu Open</span>
+                  </a>
+              </div>
+              <div class="erdem">
+                <p class="top">ERDEM</p>
+            </div>
+          </div>
+      </div>
+  </div>
+
+ <!-- Start Offcanvas header menu -->
+ <div class="offcanvas-header">
+  <div class="offcanvas__inner">
+      <div class="offcanvas__logo">
+          <a class="offcanvas__logo_link" href="./index.html">
+              <img src="static/assets/img/logo/Erdemlogo1.png" alt="erdem Logo" width="158" height="36">
+          </a>
+          <button class="offcanvas__close--btn" data-offcanvas>close</button>
+      </div>
+      <nav class="offcanvas__menu">
+          <ul class="offcanvas__menu_ul">
+              <li class="offcanvas__menu_li">
+                  <a class="offcanvas__menu_item" href="./index.html">Home</a>
+              </li>
+              <li class="offcanvas__menu_li">
+                  <a class="offcanvas__menu_item" href="./about.html">What is Erdem?</a>
+              </li>
+              <li class="offcanvas__menu_li"><a class="offcanvas__menu_item"
+                      href="./solution.html">Solutions</a></li>
+              <li class="offcanvas__menu_li"><a class="offcanvas__menu_item"
+                      href="./contact.html">Contact Us</a></li>
+          </ul>
+      </nav>
+  </div>
+</div>
+<!-- End Offcanvas header menu -->
+  </header>
+  <!-- End header area -->
 
     <main class="main__content_wrapper">
         
@@ -287,9 +317,9 @@
                     </button>
                 </h2>
                 <div class="footer__widget--inner">
-                    <p class="footer__widget--desc text-ofwhite mb-20">Erdem Insurane Agency provides both Individuals' and Corprate covers <br> 
-                        to ensure you , your family and your business are fully covered from all sorts of risks.<br>
-                        We aim to deliver an excellent customer experience. We continuously improve our processes and service capability in order to exceed customer expectations.<br>
+                    <p class="footer__widget--desc text-ofwhite mb-20">Erdem Insurance Agency provides both Individual's and Corprate covers 
+                        to ensure you, your family and your business are fully covered from all sorts of risks.
+                        We aim to deliver an excellent customer experience. We continuously improve our processes and service capability in order to exceed customer expectations.
                          Offering our clients, the very best the market is our goal.</p>
                     <div class="footer__social">
                         <h3 class="social__title text-ofwhite h4 mb-15">Follow Us</h3>
@@ -358,11 +388,6 @@
             </div>
             <div class="footer__widget footer__widget--width">
                 <h2 class="footer__widget--title text-ofwhite h3"> Social Links
-                    <button class="footer__widget--button" aria-label="footer widget button">
-                        <svg class="footer__widget--title__arrowdown--icon" xmlns="http://www.w3.org/2000/svg" width="12.355" height="8.394" viewBox="0 0 10.355 6.394">
-                            <path  d="M15.138,8.59l-3.961,3.952L7.217,8.59,6,9.807l5.178,5.178,5.178-5.178Z" transform="translate(-6 -8.59)" fill="currentColor"></path>
-                        </svg>
-                    </button>
                 </h2>
                 <div class="footer__social">
                     <h3 class="social__title text-ofwhite h4 mb-15"></h3>

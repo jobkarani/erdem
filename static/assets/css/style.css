@@ -93,7 +93,6 @@ h1 {
     }
 }
 
-
 @media only screen and (min-width:576px) {
     .h1,
     h1 {
@@ -304,7 +303,7 @@ a:focus {
 
 a:hover {
     text-decoration: none;
-    color: var(--secondary-color)
+    color: #3bacb6
 }
 
 button,
@@ -1525,7 +1524,7 @@ hr {
 .section__heading--maintitle.style2::before {
     width: 13rem;
     height: .2rem;
-    background: var(--secondary-color)
+    background: #3bacb6
 }
 
 .primary__btn {
@@ -1592,7 +1591,7 @@ hr {
 .swiper__nav--btn {
     width: 4rem;
     height: 4rem;
-    background: var(--secondary-color);
+    background: #3bacb6;
     border-radius: 50%;
     opacity: 0;
     visibility: hidden;
@@ -1608,7 +1607,7 @@ hr {
 }
 
 .swiper__nav--btn:hover {
-    background: var(--primary-color)
+    background: #3bacb6
 }
 
 .swiper__nav--btn::after {
@@ -1637,7 +1636,7 @@ hr {
 .swiper-pagination-bullet {
     width: 1.5rem;
     height: 1.5rem;
-    border: 1px solid var(--secondary-color);
+    border: 1px solid #3bacb6;
     background: var(--white-color);
     opacity: 1;
     vertical-align: middle;
@@ -1646,7 +1645,7 @@ hr {
 }
 
 .swiper-pagination-bullet.swiper-pagination-bullet-active {
-    background: var(--secondary-color);
+    background: #3bacb6;
     width: 1.8rem;
     height: 1.8rem
 }
@@ -1665,8 +1664,8 @@ select {
     right: 25px;
     z-index: 99;
     outline: 0;
-    background-color: var(--secondary-color);
-    color: var(--white-color);
+    background: #3BACB6;
+    color: #ffffff;
     -webkit-box-shadow: 0 2px 22px rgba(0, 0, 0, .16);
     box-shadow: 0 2px 22px rgba(0, 0, 0, .16);
     cursor: pointer;
@@ -1685,7 +1684,7 @@ select {
 }
 
 #scroll__top:hover {
-    background: var(--primary-color)
+    background: #82DBD8;
 }
 
 #scroll__top.active {
@@ -1745,11 +1744,11 @@ select {
 }
 
 .bg__primary {
-    background: var(--primary-color)
+    background: #3bacb6
 }
 
 .bg__secondary {
-    background: var(--secondary-color)
+    background: #3bacb6
 }
 
 .bg__gray--color {
@@ -1765,15 +1764,15 @@ select {
 }
 
 .text__primary {
-    color: var(--primary-color)
+    color: #3bacb6
 }
 
 .text__secondary {
-    color: var(--secondary-color)
+    color: #3bacb6
 }
 
 .text__secondary2 {
-    color: var(--secondary-color)
+    color: #3bacb6
 }
 
 .position__relative {
@@ -2406,7 +2405,7 @@ body.overlay__active::before {
     width: 3rem;
     height: 3rem;
     text-align: center;
-    background: var(--secondary-color);
+    background: #3bacb6;
     line-height: 3.8rem;
     border-radius: 50%;
     color: var(--white-color)
@@ -2524,7 +2523,7 @@ body.overlay__active::before {
 }
 
 .offcanvas__stikcy--toolbar__btn:hover .offcanvas__stikcy--toolbar__icon {
-    background: var(--primary-color);
+    background: #3bacb6;
     color: var(--white-color)
 }
 
@@ -2532,7 +2531,7 @@ body.overlay__active::before {
     width: 3rem;
     height: 3rem;
     text-align: center;
-    background: var(--secondary-color);
+    background: #3bacb6;
     line-height: 3.8rem;
     border-radius: 50%;
     color: var(--white-color)
@@ -2680,7 +2679,7 @@ body.overlay__active::before {
 }
 
 .header__shipping--text__link:hover {
-    color: var(--primary-color)
+    color: #3bacb6
 }
 
 .header__discount--text {
@@ -2762,15 +2761,15 @@ body.overlay__active::before {
 }
 
 .language__switcher:hover {
-    color: var(--primary-color)
+    color: #3bacb6
 }
 
 .language__switcher:hover span {
-    color: var(--primary-color)
+    color: #3bacb6
 }
 
 .language__switcher:hover svg {
-    color: var(--primary-color)
+    color: #3bacb6
 }
 
 .language__switcher svg {
@@ -2812,9 +2811,9 @@ body.overlay__active::before {
 }
 
 .language__text:hover {
-    background: var(--primary-color);
+    background: #3bacb6;
     color: var(--white-color);
-    border-color: var(--primary-color)
+    border-color: #3bacb6
 }
 
 .account__currency {
@@ -2844,15 +2843,15 @@ body.overlay__active::before {
 }
 
 .account__currency--link:hover {
-    color: var(--primary-color)
+    color: #3bacb6
 }
 
 .account__currency--link:hover span {
-    color: var(--primary-color)
+    color: #3bacb6
 }
 
 .account__currency--link:hover svg {
-    color: var(--primary-color)
+    color: #3bacb6
 }
 
 .account__currency--link svg {
@@ -2894,9 +2893,9 @@ body.overlay__active::before {
 }
 
 .currency__text:hover {
-    background: var(--primary-color);
+    background: #3bacb6;
     color: var(--white-color);
-    border-color: var(--primary-color)
+    border-color: #3bacb6
 }
 
 .main__header {
@@ -3033,11 +3032,11 @@ body.overlay__active::before {
     border: 0;
     padding: 0 1.5rem;
     line-height: 2rem;
-    background: var(--secondary-color)
+    background: #3bacb6
 }
 
 .header__search--button:hover {
-    background: var(--primary-color)
+    background: #3bacb6
 }
 
 .header__account--items {
@@ -3083,7 +3082,7 @@ body.overlay__active::before {
 }
 
 .header__account--btn:hover {
-    color: var(--secondary-color)
+    color: #3bacb6
 }
 
 .header__account--btn__text {
@@ -3117,7 +3116,7 @@ body.overlay__active::before {
     height: 2rem;
     font-size: 1rem;
     line-height: 2rem;
-    background: var(--secondary-color);
+    background: #3bacb6;
     text-align: center;
     border-radius: 50%;
     color: var(--white-color)
@@ -3229,7 +3228,7 @@ body.overlay__active::before {
 }
 
 .predictive__search--input:focus {
-    border-color: var(--secondary-color)
+    border-color: #3bacb6
 }
 
 .predictive__search--input:focus::-webkit-input-placeholder {
@@ -3248,7 +3247,7 @@ body.overlay__active::before {
     right: 0;
     height: 100%;
     padding: 0;
-    background: var(--secondary-color);
+    background: #3bacb6;
     border: 0;
     width: 5rem;
     text-align: center;
@@ -3266,7 +3265,7 @@ body.overlay__active::before {
 }
 
 .predictive__search--button:hover {
-    background: var(--primary-color)
+    background: #3bacb6
 }
 
 @media only screen and (min-width:768px) {
@@ -3295,7 +3294,7 @@ body.overlay__active::before {
 }
 
 .predictive__search--close__btn:hover {
-    color: var(--primary-color);
+    color: #3bacb6;
     -webkit-transform: scale(1.3);
     transform: scale(1.3)
 }
@@ -3364,7 +3363,7 @@ body.overlay__active::before {
 }
 
 .header__menu--items:hover .header__menu--link {
-    color: var(--secondary-color)
+    color: #3BACB6;
 }
 
 .header__menu--items:hover .header__sub--menu {
@@ -3537,7 +3536,7 @@ body.overlay__active::before {
 }
 
 .minicart__close--btn:hover {
-    color: var(--secondary-color);
+    color: #3bacb6;
     -webkit-transform: scale(1.3);
     transform: scale(1.3)
 }
@@ -3575,7 +3574,7 @@ body.overlay__active::before {
 }
 
 .minicart__product--remove:hover {
-    color: var(--secondary-color)
+    color: #3bacb6
 }
 
 .minicart__thumb {
@@ -3710,12 +3709,12 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .minicart__conditions--link {
-    color: var(--secondary-color);
+    color: #3bacb6;
     text-decoration: underline
 }
 
 .minicart__conditions--link:hover {
-    color: var(--primary-color);
+    color: #3bacb6;
     text-decoration: underline
 }
 
@@ -3753,7 +3752,7 @@ input[type=number]::-webkit-outer-spin-button {
     content: "";
     width: 1px;
     height: 100%;
-    background: var(--primary-color);
+    background: #3bacb6;
     right: 0;
     top: 0
 }
@@ -3826,7 +3825,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .mega__menu--banner:hover .mega__menu--banner__text {
-    color: var(--secondary-color)
+    color: #3bacb6
 }
 
 .mega__menu--banner__text {
@@ -3839,7 +3838,7 @@ input[type=number]::-webkit-outer-spin-button {
     font-size: 1.7rem;
     font-weight: 500;
     padding: 8px 12px;
-    color: var(--primary-color);
+    color: #3bacb6;
     background: var(--white-color);
     border-radius: 5px
 }
@@ -4225,11 +4224,11 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .product__tab--primary__btn__list.active {
-    color: var(--secondary-color)
+    color: #3bacb6
 }
 
 .product__tab--primary__btn__list:hover {
-    color: var(--secondary-color)
+    color: #3bacb6
 }
 
 .product__tab--primary__btn__list:last-child {
@@ -4404,9 +4403,9 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .product__items--action__btn:hover {
-    background: var(--secondary-color);
+    background: #3bacb6;
     color: var(--white-color);
-    border-color: var(--secondary-color)
+    border-color: #3bacb6
 }
 
 .product__items--content {
@@ -4502,7 +4501,7 @@ input[type=number]::-webkit-outer-spin-button {
     line-height: 2rem;
     padding: 0 7px;
     font-weight: 300;
-    background: var(--secondary-color);
+    background: #3bacb6;
     color: var(--white-color);
     border-radius: 6px 0 6px;
     font-size: 1.4rem
@@ -4548,7 +4547,7 @@ input[type=number]::-webkit-outer-spin-button {
     bottom: 0;
     left: 0;
     right: 0;
-    background: var(--secondary-color);
+    background: #3bacb6;
     color: var(--white-color);
     text-align: center;
     padding: 0;
@@ -4563,7 +4562,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .product__add-to__cart--btn__style2:hover {
-    background-color: var(--primary-color);
+    background-color: #3bacb6;
     color: var(--white-color)!important
 }
 
@@ -4604,8 +4603,8 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .product__items--action__style2--btn:hover {
-    background-color: var(--secondary-color);
-    border-color: var(--secondary-color);
+    background-color: #3bacb6;
+    border-color: #3bacb6;
     color: var(--white-color)
 }
 
@@ -4642,7 +4641,7 @@ input[type=number]::-webkit-outer-spin-button {
     content: "";
     width: 6rem;
     height: .2rem;
-    background: var(--secondary-color);
+    background: #3bacb6;
     bottom: 0;
     left: 0
 }
@@ -4797,7 +4796,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .new__product--items:hover .new__product--content__title a {
-    color: var(--secondary-color)
+    color: #3bacb6
 }
 
 .new__product--thumbnail {
@@ -4846,7 +4845,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .banner__items--thumbnail:hover .banner__items--content__link {
-    color: var(--secondary-color)
+    color: #3bacb6
 }
 
 .banner__items--content {
@@ -4917,12 +4916,12 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .banner__items--content__subtitle.text__secondary {
-    color: var(--secondary-color)
+    color: #3bacb6
 }
 
 .banner__items--content__title {
     margin-bottom: .7rem;
-    color: var(--primary-color);
+    color: #3bacb6;
     font-weight: 600
 }
 
@@ -4993,7 +4992,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .banner__items--content__arrow--icon {
-    color: var(--secondary-color);
+    color: #3bacb6;
     margin-left: .5rem;
     vertical-align: middle
 }
@@ -5396,7 +5395,7 @@ input[type=number]::-webkit-outer-spin-button {
 .banner__bideo--play__icon {
     width: 5rem;
     height: 5rem;
-    background: var(--secondary-color);
+    background: #3bacb6;
     color: var(--white-color);
     border-radius: 50%;
     display: -webkit-box;
@@ -5414,7 +5413,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 .banner__bideo--play__icon:hover {
     color: var(--white-color);
-    background: var(--primary-color)
+    background: #3bacb6
 }
 
 @media only screen and (min-width:768px) {
@@ -6013,7 +6012,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 .deals__countdown--style3 .countdown__text {
     text-transform: capitalize;
-    color: var(--primary-color);
+    color: #3bacb6;
     font-size: 1.5rem;
     padding-top: .8rem;
     line-height: 2rem;
@@ -6170,8 +6169,8 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .blog__content--btn:hover {
-    background: var(--secondary-color);
-    border-color: var(--secondary-color);
+    background: #3bacb6;
+    border-color: #3bacb6;
     color: var(--white-color)
 }
 
@@ -6198,7 +6197,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .blog__content--btn.style2:hover {
-    background: var(--secondary-color)!important
+    background: #3bacb6!important
 }
 
 .blog__content.style2 {
@@ -6271,7 +6270,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .testimonial__items:hover .testimonial__items--thumbnail__img {
-    border-color: var(--secondary-color)
+    border-color: #3bacb6
 }
 
 .testimonial__items--thumbnail {
@@ -6392,11 +6391,11 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .testimonial__pagination.style2 .swiper-pagination-bullet {
-    border: 1px solid var(--secondary-color)
+    border: 1px solid #3bacb6
 }
 
 .testimonial__pagination.style2 .swiper-pagination-bullet.swiper-pagination-bullet-active {
-    background: var(--secondary-color)
+    background: #3bacb6
 }
 
 @media only screen and (max-width:767px) {
@@ -6454,10 +6453,10 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .shipping__items:hover .shipping__items--icon {
-    background: var(--primary-color);
+    background: #3bacb6;
     opacity: .67;
     color: var(--white-color);
-    border-color: var(--primary-color)
+    border-color: #3bacb6
 }
 
 .shipping__items--icon {
@@ -6730,7 +6729,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .shipping__style3--icon {
-    color: var(--secondary-color);
+    color: #3bacb6;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex
@@ -7079,7 +7078,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .newsletter__subscribe--input:focus {
-    border-color: var(--secondary-color);
+    border-color: #3bacb6;
 }
 
 .newsletter__subscribe--input:focus::-webkit-input-placeholder {
@@ -7094,7 +7093,7 @@ input[type=number]::-webkit-outer-spin-button {
     width: 100%;
     height: 4.5rem;
     font-weight: 600;
-    background: var(--secondary-color);
+    background: #3bacb6;
     border: 0;
     color: var(--ofwhite-color);
     margin-top: 2rem;
@@ -7108,7 +7107,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 .newsletter__subscribe--button:hover {
     background: var(--ofwhite-color);
-    color: var(--secondary-color);
+    color: #3bacb6;
 }
 
 .newsletter__subscribe--button.style3 {
@@ -7118,12 +7117,12 @@ input[type=number]::-webkit-outer-spin-button {
     right: 9px;
     width: auto;
     background: inherit;
-    color: var(--secondary-color);
+    color: #3bacb6;
     margin: 0;
 }
 
 .newsletter__subscribe--button.style3:hover {
-    color: var(--primary-color);
+    color: #3bacb6;
 }
 
 .footer__bottom {
@@ -7243,11 +7242,11 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .footer__currency--link:hover {
-    color: var(--secondary-color);
+    color: #3bacb6;
 }
 
 .footer__currency--link:hover span {
-    color: var(--secondary-color);
+    color: #3bacb6;
 }
 
 .footer__social--style3 .social__shear--list__icon {
@@ -7261,11 +7260,11 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .footer__social--style3 .social__shear--list__icon:hover {
-    color: coral;
+    color: #3bacb6;
 }
 
 .footer__social--style3 .social__shear--list__icon:hover span {
-    color: coral;
+    color: #3bacb6;
 }
 
 .footer__social--style3 .social__shear--list {
@@ -7287,7 +7286,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .footer__menu--style3 .footer__widget--menu__text:hover {
-    color: coral;
+    color: #3bacb6;
 }
 
 .footer__language--link>* {
@@ -7329,7 +7328,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .footer__widget--button.style3 {
-    color: var(--primary-color);
+    color: #3bacb6;
 }
 
 .modal {
@@ -7422,8 +7421,8 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .quickview__close--btn:hover {
-    background: var(--primary-color);
-    border-color: var(--primary-color);
+    background: #3bacb6;
+    border-color: #3bacb6;
     color: var(--white-color);
 }
 
@@ -7475,14 +7474,14 @@ input[type=number]::-webkit-outer-spin-button {
 .quickview__gallery--pagination .swiper-pagination-bullet {
     width: 16px;
     height: 5px;
-    background: var(--secondary-color);
+    background: #3bacb6;
     opacity: 1;
     border-radius: 2px;
     margin: 0 3px!important
 }
 
 .quickview__gallery--pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
-    background: var(--primary-color)
+    background: #3bacb6
 }
 
 .variant__color--value {
@@ -7505,12 +7504,12 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .variant__input--fieldset input[type=radio]+label {
-    border: 1px solid var(--primary-color)
+    border: 1px solid #3bacb6
 }
 
 .variant__input--fieldset input[type=radio]+label:hover {
-    border: 1px solid var(--secondary-color);
-    color: var(--secondary-color)
+    border: 1px solid #3bacb6;
+    color: #3bacb6
 }
 
 .variant__input--fieldset {
@@ -7535,8 +7534,8 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .variant__input--fieldset input[type=radio]:checked+label {
-    border: 1px solid var(--secondary-color);
-    color: var(--secondary-color)
+    border: 1px solid #3bacb6;
+    color: #3bacb6
 }
 
 .variant__input--fieldset:last-child {
@@ -7629,13 +7628,13 @@ input.quickview__value--number {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    background: var(--secondary-color);
+    background: #3bacb6;
     color: var(--white-color);
     border-radius: 50%
 }
 
 .quickview__social--icon:hover {
-    background: var(--primary-color);
+    background: #3bacb6;
     color: var(--white-color)
 }
 
@@ -7705,7 +7704,7 @@ input.quickview__value--number {
 .accordion__items--button__icon {
     width: 3rem;
     height: 3rem;
-    background: var(--secondary-color);
+    background: #3bacb6;
     color: var(--white-color);
     padding: 5px;
     border-radius: 50%;
@@ -7737,7 +7736,7 @@ input.quickview__value--number {
     content: "";
     width: 100%;
     height: 100%;
-    background: var(--secondary-color);
+    background: #3bacb6;
     top: 0;
     left: 0;
     opacity: 0;
@@ -7788,7 +7787,7 @@ input.quickview__value--number {
     width: 4rem;
     height: 4rem;
     background: var(--white-color);
-    color: var(--secondary-color);
+    color: #3bacb6;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -7806,7 +7805,7 @@ input.quickview__value--number {
 }
 
 .portfolio__view--icon:hover {
-    background: var(--primary-color);
+    background: #3bacb6;
     color: var(--white-color)
 }
 
@@ -7979,7 +7978,7 @@ input.quickview__value--number {
     content: "";
     width: 3px;
     height: 20px;
-    background: var(--secondary-color);
+    background: #3bacb6;
     right: 0;
     top: 4px;
     border-radius: 5px;
@@ -8238,7 +8237,7 @@ input.quickview__value--number {
 }
 
 .team__items:hover .team__thumb {
-    border-color: var(--secondary-color)
+    border-color: #3bacb6
 }
 
 @media only screen and (max-width:991px) {
@@ -8280,7 +8279,7 @@ input.quickview__value--number {
     width: 3.2rem;
     height: 3.2rem;
     text-align: center;
-    background: var(--secondary-color);
+    background: #3bacb6;
     color: var(--white-color);
     line-height: 3.5rem;
     border-radius: 50%;
@@ -8296,7 +8295,7 @@ input.quickview__value--number {
 }
 
 .team__social--icon:hover {
-    background: var(--primary-color);
+    background: #3bacb6;
     color: var(--white-color)
 }
 
@@ -8476,13 +8475,13 @@ input.quickview__value--number {
 }
 
 .product__grid--column__buttons--icons:hover {
-    color: var(--secondary-color);
-    border-color: var(--secondary-color)
+    color: #3bacb6;
+    border-color: #3bacb6
 }
 
 .product__grid--column__buttons--icons.active {
-    color: var(--secondary-color);
-    border-color: var(--secondary-color)
+    color: #3bacb6;
+    border-color: #3bacb6
 }
 
 .product__view--search__form {
@@ -8525,7 +8524,7 @@ input.quickview__value--number {
 }
 
 .product__view--search__input:focus {
-    border-color: var(--secondary-color)
+    border-color: #3bacb6
 }
 
 .product__view--search__btn {
@@ -8533,7 +8532,7 @@ input.quickview__value--number {
     right: 0;
     top: 0;
     border: 0;
-    background: var(--secondary-color);
+    background: #3bacb6;
     color: var(--white-color);
     height: 100%;
     width: 4rem;
@@ -8542,7 +8541,7 @@ input.quickview__value--number {
 }
 
 .product__view--search__btn:hover {
-    background: var(--primary-color)
+    background: #3bacb6
 }
 
 .product__showing--count {
@@ -8623,8 +8622,8 @@ input.quickview__value--number {
 }
 
 .widget__filter--btn:hover {
-    border-color: var(--secondary-color);
-    color: var(--secondary-color)
+    border-color: #3bacb6;
+    color: #3bacb6
 }
 
 .widget__filter--btn__icon {
@@ -8656,8 +8655,8 @@ input.quickview__value--number {
 }
 
 .offcanvas__filter--close:hover {
-    border-color: var(--secondary-color);
-    color: var(--secondary-color)
+    border-color: #3bacb6;
+    color: #3bacb6
 }
 
 .offcanvas__filter--close__text {
@@ -8726,7 +8725,7 @@ input.quickview__value--number {
 }
 
 .widget__search--form__input:focus {
-    border-color: var(--secondary-color)
+    border-color: #3bacb6
 }
 
 .widget__search--form__btn {
@@ -8734,7 +8733,7 @@ input.quickview__value--number {
     top: 0;
     right: 0;
     border: 0;
-    background: var(--secondary-color);
+    background: #3bacb6;
     color: var(--white-color);
     padding: 0;
     width: 4.5rem;
@@ -8743,7 +8742,7 @@ input.quickview__value--number {
 }
 
 .widget__search--form__btn:hover {
-    background: var(--primary-color)
+    background: #3bacb6
 }
 
 .widget__categories--menu__list {
@@ -8781,7 +8780,7 @@ input.quickview__value--number {
 }
 
 .widget__categories--menu__label:hover {
-    color: var(--primary-color)
+    color: #3bacb6
 }
 
 .widget__categories--menu__text {
@@ -8849,7 +8848,7 @@ input.quickview__value--number {
 }
 
 .widget__form--check__label:hover {
-    color: var(--primary-color)
+    color: #3bacb6
 }
 
 .widget__form--check__input {
@@ -8864,7 +8863,7 @@ input.quickview__value--number {
 }
 
 .widget__form--check__input:checked~.widget__form--checkmark {
-    background-color: var(--secondary-color)
+    background-color: #3bacb6
 }
 
 .widget__form--check__input:checked~.widget__form--checkmark::before {
@@ -8874,7 +8873,7 @@ input.quickview__value--number {
 .widget__form--checkmark {
     height: 1.8rem;
     width: 1.8rem;
-    border: 1px solid var(--secondary-color);
+    border: 1px solid #3bacb6;
     border-radius: 50%;
     display: block;
     position: absolute;
@@ -8959,8 +8958,8 @@ input.quickview__value--number {
 }
 
 .widget__tagcloud--link:hover {
-    background: var(--secondary-color);
-    border-color: var(--secondary-color);
+    background: #3bacb6;
+    border-color: #3bacb6;
     color: var(--white-color)
 }
 
@@ -9134,14 +9133,14 @@ input.quickview__value--number {
 }
 
 .pagination__item--current {
-    background: var(--secondary-color);
-    border-color: var(--secondary-color);
+    background: #3bacb6;
+    border-color: #3bacb6;
     color: var(--white-color)
 }
 
 .pagination__item:hover {
-    background: var(--secondary-color);
-    border-color: var(--secondary-color);
+    background: #3bacb6;
+    border-color: #3bacb6;
     color: var(--white-color)
 }
 
@@ -9190,13 +9189,13 @@ input.quickview__value--number {
     height: 3.5rem;
     line-height: 4.5rem;
     text-align: center;
-    background: var(--secondary-color);
+    background: #3bacb6;
     border-radius: 50%;
     color: var(--white-color)
 }
 
 .product__media--view__icon--link:hover {
-    background: var(--primary-color);
+    background: #3bacb6;
     color: var(--white-color)
 }
 
@@ -9206,11 +9205,11 @@ input.quickview__value--number {
 }
 
 .media__play--icon__link {
-    color: var(--secondary-color)
+    color: #3bacb6
 }
 
 .media__play--icon__link:hover {
-    color: var(--primary-color)
+    color: #3bacb6
 }
 
 .product__media--nav {
@@ -9384,7 +9383,7 @@ input.quickview__value--number {
     content: "";
     width: 0;
     height: 1px;
-    background: var(--secondary-color);
+    background: #3bacb6;
     left: 50%;
     right: 50%;
     -webkit-transition: var(--transition);
@@ -9393,7 +9392,7 @@ input.quickview__value--number {
 }
 
 .product__details--tab__list.active {
-    color: var(--secondary-color)
+    color: #3bacb6
 }
 
 .product__details--tab__list.active::before {
@@ -9403,7 +9402,7 @@ input.quickview__value--number {
 }
 
 .product__details--tab__list:hover {
-    color: var(--secondary-color)
+    color: #3bacb6
 }
 
 .product__details--tab__list:hover::before {
@@ -9509,7 +9508,7 @@ input.quickview__value--number {
 }
 
 .reviews__summary--caption {
-    color: var(--secondary-color);
+    color: #3bacb6;
     margin-left: 1.2rem
 }
 
@@ -9728,7 +9727,7 @@ input.quickview__value--number {
 }
 
 .reviews__comment--reply__textarea:focus {
-    border-color: var(--secondary-color)
+    border-color: #3bacb6
 }
 
 .reviews__comment--reply__input {
@@ -9746,7 +9745,7 @@ input.quickview__value--number {
 }
 
 .reviews__comment--reply__input:focus {
-    border-color: var(--secondary-color)
+    border-color: #3bacb6
 }
 
 .reviews__comment--btn {
@@ -9841,11 +9840,11 @@ input.quickview__value--number {
 }
 
 .blog__post--meta__link {
-    color: var(--secondary-color)
+    color: #3bacb6
 }
 
 .blog__post--meta__link:hover {
-    color: var(--secondary-color);
+    color: #3bacb6;
     text-decoration: underline
 }
 
@@ -9992,8 +9991,8 @@ input.quickview__value--number {
 }
 
 .blog__tags--media__link:hover {
-    background: var(--primary-color);
-    border-color: var(--primary-color);
+    background: #3bacb6;
+    border-color: #3bacb6;
     color: var(--white-color)
 }
 
@@ -10042,13 +10041,13 @@ input.quickview__value--number {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    background: var(--secondary-color);
+    background: #3bacb6;
     color: var(--white-color);
     border-radius: 50%
 }
 
 .blog__social--media__link:hover {
-    background: var(--primary-color);
+    background: #3bacb6;
     color: var(--white-color)
 }
 
@@ -10190,7 +10189,7 @@ input.quickview__value--number {
 }
 
 .home__contact--info__items:hover .home__contact--info__icon {
-    color: var(--secondary-color)
+    color: #3bacb6
 }
 
 .home__contact--info__icon {
@@ -10277,7 +10276,7 @@ input.quickview__value--number {
 }
 
 .contact__form--label__star {
-    color: var(--secondary-color)
+    color: #3bacb6
 }
 
 .contact__form--input {
@@ -10289,7 +10288,7 @@ input.quickview__value--number {
 }
 
 .contact__form--input:focus {
-    border-color: var(--secondary-color)!important
+    border-color: #3bacb6!important
 }
 
 @media only screen and (min-width:576px) {
@@ -10309,7 +10308,7 @@ input.quickview__value--number {
 }
 
 .contact__form--textarea:focus {
-    border-color: var(--secondary-color)!important
+    border-color: #3bacb6!important
 }
 
 @media only screen and (min-width:992px) {
@@ -10325,7 +10324,7 @@ input.quickview__value--number {
 }
 
 .contact__info {
-    background: var(--secondary-color);
+    background: #3bacb6;
     width: 46rem;
     padding: 2rem;
     position: absolute;
@@ -10423,7 +10422,7 @@ input.quickview__value--number {
 }
 
 .contact__info--content__desc a:hover {
-    color: var(--primary-color)
+    color: #3bacb6
 }
 
 .contact__info--social__list {
@@ -10447,12 +10446,12 @@ input.quickview__value--number {
     -ms-flex-pack: center;
     justify-content: center;
     background: var(--white-color);
-    color: var(--secondary-color);
+    color: #3bacb6;
     border-radius: 50%
 }
 
 .contact__info--social__icon:hover {
-    background: var(--primary-color);
+    background: #3bacb6;
     color: var(--white-color)
 }
 
@@ -10633,7 +10632,7 @@ input.quickview__value--number {
 }
 
 .cart__remove--btn:hover {
-    color: var(--secondary-color)
+    color: #3bacb6
 }
 
 @media only screen and (min-width:768px) {
@@ -10659,7 +10658,7 @@ input.quickview__value--number {
 .continue__shopping--link {
     font-size: 1.5rem;
     font-weight: 600;
-    color: var(--secondary-color)
+    color: #3bacb6
 }
 
 @media only screen and (min-width:992px) {
@@ -10671,7 +10670,7 @@ input.quickview__value--number {
 .continue__shopping--clear {
     font-size: 1.5rem;
     font-weight: 600;
-    color: var(--secondary-color);
+    color: #3bacb6;
     border: 0;
     padding: 0;
     background: inherit
@@ -10751,7 +10750,7 @@ input.quickview__value--number {
 }
 
 .coupon__code--field__input:focus {
-    border-color: var(--secondary-color)
+    border-color: #3bacb6
 }
 
 .coupon__code--field__btn {
@@ -10800,7 +10799,7 @@ input.quickview__value--number {
 }
 
 .cart__note--textarea:focus {
-    border-color: var(--secondary-color)
+    border-color: #3bacb6
 }
 
 @media only screen and (min-width:1200px) {
@@ -10935,7 +10934,7 @@ input.quickview__value--number {
 
 .breadcrumb__link {
     font-size: 1.3rem;
-    color: var(--secondary-color)
+    color: #3bacb6
 }
 
 .readcrumb__chevron-icon {
@@ -10978,11 +10977,11 @@ input.quickview__value--number {
 }
 
 .order__summary--toggle__text {
-    color: var(--secondary-color)
+    color: #3bacb6
 }
 
 .order__summary--toggle__icon {
-    color: var(--secondary-color);
+    color: #3bacb6;
     vertical-align: middle;
     line-height: 1.5rem;
     margin-right: 1rem
@@ -11046,8 +11045,8 @@ details>summary::-webkit-details-marker {
 }
 
 .checkout__checkbox--input:checked~.checkout__checkbox--checkmark {
-    background-color: var(--secondary-color);
-    border: 1px solid var(--secondary-color)
+    background-color: #3bacb6;
+    border: 1px solid #3bacb6
 }
 
 .checkout__checkbox--input:checked~.checkout__checkbox--checkmark::before {
@@ -11101,7 +11100,7 @@ details>summary::-webkit-details-marker {
 }
 
 .checkout__input--field:focus {
-    border-color: var(--secondary-color)
+    border-color: #3bacb6
 }
 
 @media only screen and (max-width:575px) {
@@ -11143,7 +11142,7 @@ details>summary::-webkit-details-marker {
 }
 
 .layout__flex--item__link {
-    color: var(--secondary-color)
+    color: #3bacb6
 }
 
 .section__shipping--address {
@@ -11179,7 +11178,7 @@ details>summary::-webkit-details-marker {
 }
 
 .checkout__input--select__field:focus {
-    border-color: var(--secondary-color)
+    border-color: #3bacb6
 }
 
 .checkout__select--label {
@@ -11192,7 +11191,7 @@ details>summary::-webkit-details-marker {
 
 .previous__link--content {
     margin-left: 2rem;
-    color: var(--secondary-color)
+    color: #3bacb6
 }
 
 .checkout__footer {
@@ -11261,7 +11260,7 @@ details>summary::-webkit-details-marker {
 }
 
 .checkout__discount--code__input--field:focus {
-    border-color: var(--secondary-color)
+    border-color: #3bacb6
 }
 
 .checkout__discount--code__btn {
@@ -11373,7 +11372,7 @@ details>summary::-webkit-details-marker {
 }
 
 .checkout__review--link__text {
-    color: var(--secondary-color);
+    color: #3bacb6;
     border: 0;
     background: inherit;
     padding: 0
@@ -11465,14 +11464,14 @@ details>summary::-webkit-details-marker {
     left: 0;
     width: 4rem;
     height: 4rem;
-    border: 2px solid var(--secondary-color);
+    border: 2px solid #3bacb6;
     border-radius: 50%;
     text-align: center;
     line-height: 5.2rem
 }
 
 .checkout__submission--icon svg {
-    color: var(--secondary-color)
+    color: #3bacb6
 }
 
 .checkout__order--number {
@@ -11620,11 +11619,11 @@ details>summary::-webkit-details-marker {
 }
 
 .account__menu--list:hover {
-    color: var(--secondary-color)
+    color: #3bacb6
 }
 
 .account__menu--list.active {
-    color: var(--secondary-color)
+    color: #3bacb6
 }
 
 @media only screen and (min-width:992px) {
@@ -11661,14 +11660,14 @@ details>summary::-webkit-details-marker {
 }
 
 .account__details--link {
-    color: var(--secondary-color);
-    border-bottom: 1px solid var(--secondary-color);
+    color: #3bacb6;
+    border-bottom: 1px solid #3bacb6;
     font-size: 1.5rem
 }
 
 .account__details--link:hover {
-    color: var(--primary-color);
-    border-color: var(--primary-color)
+    color: #3bacb6;
+    border-color: #3bacb6
 }
 
 .new__address--btn {
@@ -11701,8 +11700,8 @@ details>summary::-webkit-details-marker {
 }
 
 .account__details--footer__btn:hover {
-    color: var(--secondary-color);
-    border-color: var(--secondary-color)
+    color: #3bacb6;
+    border-color: #3bacb6
 }
 
 .account__welcome--text {
@@ -11967,7 +11966,7 @@ details>summary::-webkit-details-marker {
 }
 
 .account__login--input:focus {
-    border-color: var(--secondary-color)
+    border-color: #3bacb6
 }
 
 .account__login--btn {
@@ -12004,12 +12003,12 @@ details>summary::-webkit-details-marker {
 }
 
 .account__login--signup__text button:hover {
-    color: var(--secondary-color)
+    color: #3bacb6
 }
 
 .account__login--forgot {
     font-weight: 600;
-    color: var(--secondary-color);
+    color: #3bacb6;
     font-size: 1.5rem;
     padding: 0;
     background: inherit;
@@ -12023,7 +12022,7 @@ details>summary::-webkit-details-marker {
 }
 
 .account__login--forgot:hover {
-    color: var(--primary-color)
+    color: #3bacb6
 }
 
 @media only screen and (max-width:767px) {
@@ -12111,7 +12110,7 @@ details>summary::-webkit-details-marker {
 }
 
 .account__social--link.facebook:hover {
-    background: var(--secondary-color);
+    background: #3bacb6;
     color: var(--white-color)
 }
 
@@ -12120,7 +12119,7 @@ details>summary::-webkit-details-marker {
 }
 
 .account__social--link.google:hover {
-    background: var(--secondary-color);
+    background: #3bacb6;
     color: var(--white-color)
 }
 
@@ -12129,7 +12128,7 @@ details>summary::-webkit-details-marker {
 }
 
 .account__social--link.twitter:hover {
-    background: var(--secondary-color);
+    background: #3bacb6;
     color: var(--white-color)
 }
 
@@ -12224,7 +12223,7 @@ details>summary::-webkit-details-marker {
 }
 
 .compare__remove:hover {
-    color: var(--secondary-color)
+    color: #3bacb6
 }
 
 .compare__description {
@@ -12637,7 +12636,7 @@ details>summary::-webkit-details-marker {
     position: absolute;
     top: 4px;
     right: 4px;
-    background: var(--secondary-color);
+    background: #3bacb6;
     color: var(--white-color);
     line-height: 2.8rem;
     border: 0;
@@ -12659,7 +12658,7 @@ details>summary::-webkit-details-marker {
 }
 
 .newsletter__popup--close__btn:hover {
-    background: var(--primary-color)
+    background: #3bacb6
 }
 
 @media only screen and (min-width:992px) {
@@ -12769,7 +12768,7 @@ details>summary::-webkit-details-marker {
 }
 
 .newsletter__popup--subscribe__input:focus {
-    border-color: var(--secondary-color)
+    border-color: #3bacb6
 }
 
 @media only screen and (min-width:768px) {
@@ -12781,7 +12780,7 @@ details>summary::-webkit-details-marker {
 .newsletter__popup--subscribe__btn {
     width: 100%;
     height: 4rem;
-    background: var(--secondary-color);
+    background: #3bacb6;
     color: var(--white-color);
     border: 0;
     padding: 0 2rem;
@@ -12793,7 +12792,7 @@ details>summary::-webkit-details-marker {
 }
 
 .newsletter__popup--subscribe__btn:hover {
-    background: var(--primary-color)
+    background: #3bacb6
 }
 
 @media only screen and (min-width:768px) {
