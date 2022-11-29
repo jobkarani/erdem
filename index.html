@@ -356,27 +356,60 @@
     </div>
 
     <style>
+        .predator{
+            color:#2F8F9D;
+            margin-bottom: 5%;
+        }
+        .testimonials-col{
+            display: flex;
+        }
+        .right{
+            margin-left: 10%;
+        }
         @media (max-width:360px){
             .testimonials{
                padding-top:1%;
                margin-bottom:1%;    
             }
         }
+        @media only screen and (max-width:500px) {
+            .predator{
+                margin-bottom: 5%;
+            }
+            .testimonials-col{
+            display: block;
+            margin-left: 0%;
+            }
+            .img-col{
+                text-align: center;
+                margin-bottom: 5%;
+            }
+            .right{
+                margin-left: 0;
+            }
+
+            .pimp{
+                text-align: center;
+            }
+
+            
+        }
     </style>
     <!--------Testimonials--------->
     <section class="testimonials">
-        <h1 style="color:#2F8F9D">What our customers say</h1>
-        <p>This is what some of our customers had to say.</p>
+        <h1 class="predator">Testimonials</h1>
         <div class="row">
             <div class="testimonials-col">
-                <img src="https://media.istockphoto.com/photos/confident-young-man-in-casual-green-shirt-looking-away-standing-with-picture-id1324558913?s=612x612" alt="error">
-                <div>
-                    <p>
-                        Always helpful and always available. The folks at ERDEM Agency are my insurance people, 
+                <div class="img-col">
+                    <img  src="https://media.istockphoto.com/photos/confident-young-man-in-casual-green-shirt-looking-away-standing-with-picture-id1324558913?s=612x612" alt="error">
+                </div>
+                <div class="right">
+                    <p class="pimp">
+                        Always helpful and always available. The folks at ERDEM Agency are my number one go to insurance people
                         for everything…cars, boats, houses and that makes my life easier.
                          Peace of mind would be enough, but their bundled rates beat everyone else I’ve used before too. I Definitely recommend Erdem agency!
                     </p>
-                    <h3>Michael Dise </h3>
+                    <h3 class="namee">Michael Dise </h3>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
@@ -387,13 +420,15 @@
             </div>
     
             <div class="testimonials-col">
-                <img src="https://media.istockphoto.com/photos/cheerful-fashionable-adult-man-in-city-setting-picture-id1310533180?s=612x612" alt="error">
-                <div>
-                    <p>
-                        ERDEM Insurance Agency always goes above and beyond for us. Anyone in my family needs insurance I am able to contact her and she get’s right on it. 
-                        It is like we have our very own VIP treatment and she not only helps us but is able to get us the best deal out there
+                <div class="img-col">
+                    <img src="https://media.istockphoto.com/photos/cheerful-fashionable-adult-man-in-city-setting-picture-id1310533180?s=612x612" alt="error">
+                </div>
+                <div class="right">
+                    <p class="pimp">
+                        ERDEM Insurance Agency always goes above and beyond for us. If anyone in my family needs insurance I am able to contact them and they get right on it. 
+                        It is like we have our very own VIP treatment and they not only helps us but they are able to get us the best deal out there.
                     </p>
-                    <h3>Hudson Armstrong</h3>
+                    <h3 class="namee">Hudson Armstrong</h3>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
@@ -575,6 +610,9 @@
                         
                     </ul>
                 </div>
+            </div>
+            <div class="alchemist">
+                <p class="alc">Powered by <a class="emist" href="https://www.instagram.com/joboytheeone/">The Alchemist</a> | All Rights Reserved | Copyright &#169;2023 </p>
             </div>
         </div>
     </div>
