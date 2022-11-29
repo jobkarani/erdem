@@ -29,8 +29,31 @@
 <body>
   <script src="https://apps.elfsight.com/p/platform.js" defer></script>
 <div class="elfsight-app-844e85ea-0143-412a-9154-93cd04d325dd"></div>
-  <!-- Start header area -->
-  <header class="header__section">
+
+<style>
+  .grrt{
+            display: none;
+        }
+  @media(max-width: 1000px) {
+        .grrt{
+        display: contents;
+        }
+
+        .popo{
+            margin-bottom: 5%;
+        }
+        .erdem{
+            margin-right: 5%;
+        }
+        .top{
+            font-size: xx-large;
+            font-weight: 800;
+            color: #3BACB6;
+        }
+    }
+</style>
+   <!-- Start header area -->
+   <header class="header__section">
     <div class="main__header header__sticky">
       <div class="container-fluid">
         <div class="main__header--inner position__relative d-flex justify-content-between align-items-center">
@@ -60,7 +83,7 @@
         </div>
       </div>
     </div>
-    <div class="main__header header__sticky">
+    <div class="main__header grrt header__sticky">
       <div class="container-fluid">
           <div class="main__header--inner position__relative d-flex justify-content-between align-items-center">
               <div class="offcanvas__header--menu__open ">
@@ -69,6 +92,9 @@
                       <span class="visually-hidden">Menu Open</span>
                   </a>
               </div>
+              <div class="erdem">
+                <p class="top">ERDEM</p>
+            </div>
           </div>
       </div>
   </div>
