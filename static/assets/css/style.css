@@ -3884,7 +3884,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .home1__slider--bg.two {
-    background: url('/static/assets/img/WhatsApp\ Image\ 2022-11-30\ at\ 12.30.12.jpeg');
+    background: url('/static/assets/img/slider.jpeg');
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -3898,11 +3898,6 @@ input[type=number]::-webkit-outer-spin-button {
     }
 }
 
-
-/* .tiptip{
-    padding-top: 5%;
-    padding-bottom: 5%;
-} */
 
 .slider__content{
     margin-top: 5%;
