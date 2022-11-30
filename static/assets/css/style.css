@@ -3884,7 +3884,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .home1__slider--bg.two {
-    background: url('/static/assets/img/slider.jpeg');
+    background: url('https://img.freepik.com/free-photo/yeah-baby-we-did-it-triumphing-delighted-joyful-good-looking-african-american-woman-yelling-from-joy-happiness-as-winning-clenching-fists-victory-gesture-cheering-white-wall_176420-35285.jpg?w=826&t=st=1669802966~exp=1669803566~hmac=af5cae1657478d3b2158b8c407a1891aa7ba32a50e3b965d986b3ab07fcc2db4');
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
