@@ -3883,23 +3883,8 @@ input[type=number]::-webkit-outer-spin-button {
     }
 }
 
-.home1__slider--bg {
-    background: url('https://images.unsplash.com/photo-1421941027568-40ab08ee5592?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzN8fHdoaXRlJTIwJTIwYnVpbGRpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500');
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
-    background-size: cover
-}
-
-@media only screen and (max-width:767px) {
-    .home1__slider--bg {
-        background-position: 0;
-        height: 50vh;
-    }
-}
-
 .home1__slider--bg.two {
-    background: url('https://images.unsplash.com/photo-1542023047812-0fccb4119921?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODB8fGFmcmljYW58ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+    background: url('/static/assets/img/WhatsApp\ Image\ 2022-11-30\ at\ 12.30.12.jpeg');
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -3908,26 +3893,28 @@ input[type=number]::-webkit-outer-spin-button {
 
 @media only screen and (max-width:767px) {
     .home1__slider--bg.two {
-        background-position: 0;
+        background-position: 60%;
         height: 50vh;
     }
 }
 
-.home1__slider--bg.three {
-    background: url('https://cdn.pixabay.com/photo/2020/07/23/04/35/flyer-5430378_960_720.jpg');
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
-    background-size: cover
+
+/* .tiptip{
+    padding-top: 5%;
+    padding-bottom: 5%;
+} */
+
+.slider__content{
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
-
 @media only screen and (max-width:767px) {
-    .home1__slider--bg.three {
-        background-position: 0;
+    .slider__content{
+        margin-left: 0%;
+        margin-top: 30%;
     }
-
-    .tip{
-        color: #3ebbc4;
+    .XXX{
+        color: #000000;
     }
 }
 
