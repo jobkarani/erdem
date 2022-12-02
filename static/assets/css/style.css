@@ -2923,7 +2923,7 @@ body.overlay__active::before {
 }
 
 .header__menu--items {
-    margin-left: 10%;
+    margin-left: 5%;
     position: relative
 }
 
@@ -3884,7 +3884,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .home1__slider--bg.two {
-    background: url('https://img.freepik.com/free-photo/chill-everything-perfect-portrait-happy-delighted-female-african-american-customer-recommending-good-quality-product-showing-ok-gesture-smiling-satisfied-white-wall_176420-35241.jpg?w=826&t=st=1669803665~exp=1669804265~hmac=74c4a00360ccf5e870972c2e2deecf67a39b3e7aaa9abc56f3018626130cf0b0');
+    background: url('https://img.freepik.com/free-photo/father-carrying-daughter-his-back-with-arms-spread_342744-993.jpg?w=826&t=st=1669912350~exp=1669912950~hmac=085c90eed9f10edbac8efd801962e6d1314cc28382f9684700a0993179414276');
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -3903,13 +3903,23 @@ input[type=number]::-webkit-outer-spin-button {
     margin-top: 5%;
     margin-bottom: 5%;
 }
+.XXX{
+    color: #3BACB6;
+}
+.auto{
+    width:23%;
+    height:23%;
+}
 @media only screen and (max-width:767px) {
     .slider__content{
         margin-left: 0%;
         margin-top: 30%;
     }
     .XXX{
-        color: #000000;
+        color: #fff;
+    }
+    .tiptip{
+        color: #fff;
     }
 }
 
