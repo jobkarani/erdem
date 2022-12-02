@@ -308,12 +308,25 @@
         .aux{
             text-align: center;
         }
+        .toto{
+            width:100%;
+            height:100%;
+            margin-right:20%;
+        }
+
+        .spender{
+            margin-left:2%;
+            display:flex;
+        }
+        .splender{
+           margin-left:2%;
+           display:flex;
+        }
         @media only screen and (max-width: 500px) {
             .cont{
                 margin-left: -10%;
                 display:flex;
                 flex-direction:column;
-                border-bottom: 2px solid black;
             }
 
             .kodak{
@@ -336,11 +349,14 @@
                 padding-right: 10%;
                 display:flex;
                 flex-direction:column;
-                border-bottom: 2px solid black;
+                border-bottom: 1px solid black;
             }
             .row2{
                 display:flex;
                 flex-direction:column;
+            }
+            .spender{
+                margin-left: 10%;
             }
             .txt2{
                 margin-bottom:15%;
@@ -366,12 +382,26 @@
                 font-size: xx-small;
                 text-align: center;
             }
-
+            .toto{
+                margin-left: 0;
+            }
+            .kink{
+                /* padding: 0;
+                width: 100%;
+                margin-left: 0; */
+                display: none;
+            }
+            .tong{
+                display: none;
+                /* padding: 0; */
+                /* width: 100%; */
+                /* margin-left: 3%; */
+            }
         }
     </style>
 <!-------------Course--------->
      <div class="container-fluid kodak cont">
-         <div class="row" style="margin-left:11%;display:flex;" >
+         <div class="row spender">
            <div class="col-6 txt">
             <h2 class="dept" style="color:#2F8F9D;">Individual's Insurance Policies</h2>
                 <ul class="list-group">
@@ -384,16 +414,16 @@
                     <li class="list-group-item aux">Travel Insurance</li>
                   </ul>
             </div>
-          <div class="col-6 img imgg">
-              <img  style="width:100%;height:100%;margin-right:20%;"src="https://cdn.dribbble.com/users/1174720/screenshots/11973809/media/412218af05cf73e109036e50dace111a.png?compress=1&resize=1200x900&vertical=top"alt="error">
+          <div class="col-6 img tong imgg">
+              <img  class="tutu" src="https://img.freepik.com/premium-photo/when-can-you-get-here-cropped-shot-young-man-calling-roadside-assistance-after-breaking-down_590464-22596.jpg?w=826"alt="error">
           </div>
-    </div>
+        </div>
      </div>
 
      <div class="container-fluid kodak cont2">
-        <div class="row row2" style="margin-left:1%;display:flex;" >
-         <div class="col-6 img2">
-             <img  style="width:100%;height:100%;margin-right:20%;"src="https://cdn.dribbble.com/users/1626229/screenshots/11478205/media/0be495b3112ea94bf6ae2438869a9337.jpg?compress=1&resize=800x600&vertical=top"alt="error">
+        <div class="row row2 splender" >
+         <div class="col-6 kink img2">
+             <img class="toto" src="https://img.freepik.com/premium-photo/skyscraper-commercial-building_62754-1633.jpg?w=996"alt="error">
          </div>
          <div class="col-6 txt2">
             <h2 class="dept" style="color:#2F8F9D;">Corporate Insurance Policies</h2>
@@ -437,6 +467,9 @@
         @media only screen and (max-width:500px) {
             .predator{
                 margin-bottom: 5%;
+            }
+            .testimonials{
+                margin-top: 0;
             }
             .testimonials-col{
             display: block;
