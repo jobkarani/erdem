@@ -2924,7 +2924,7 @@ body.overlay__active::before {
 }
 
 .header__menu--items {
-    margin-left: 5%;
+    margin-left: 1%;
     position: relative
 }
 
@@ -2933,7 +2933,8 @@ body.overlay__active::before {
 }
 
 .header__menu--link{
-    font-weight: 800;
+    font-weight: 700;
+    font-size: medium;
 }
 
 @media only screen and (min-width:768px) {
