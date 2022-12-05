@@ -16,6 +16,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
     rel="stylesheet" />
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Plugin css -->
   <!-- <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css"> -->
@@ -27,8 +28,6 @@
 
 
 <body>
-  <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-<div class="elfsight-app-844e85ea-0143-412a-9154-93cd04d325dd"></div>
 
 <style>
   .grrt{
@@ -58,6 +57,8 @@
     }
     
 </style>
+<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-c9a93084-f7c9-4992-bf4c-356d2dd4f4ad"></div>
   <!-- Start header area -->
   <header class="header__section">
     <div class="main__header header__sticky">
@@ -367,21 +368,163 @@
         margin-top: 5%;
       }
     }
+
+    /* swiperjs  */
+    .partners{
+        text-align:center;
+        padding: 20px;
+      }
+      /* Slider */
+
+      .slick-slide {
+          margin: 0px 20px;
+      }
+
+      .slick-slide img {
+          width: 100%;
+      }
+
+      .slick-slider
+      {
+          position: relative;
+          display: block;
+          box-sizing: border-box;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          -ms-user-select: none;
+                  user-select: none;
+          -webkit-touch-callout: none;
+          -khtml-user-select: none;
+          -ms-touch-action: pan-y;
+              touch-action: pan-y;
+          -webkit-tap-highlight-color: transparent;
+      }
+
+      .slick-list
+      {
+          position: relative;
+          display: block;
+          overflow: hidden;
+          margin: 0;
+          padding: 0;
+      }
+      .slick-list:focus
+      {
+          outline: none;
+      }
+      .slick-list.dragging
+      {
+          cursor: pointer;
+          cursor: hand;
+      }
+
+      .slick-slider .slick-track,
+      .slick-slider .slick-list
+      {
+          -webkit-transform: translate3d(0, 0, 0);
+            -moz-transform: translate3d(0, 0, 0);
+              -ms-transform: translate3d(0, 0, 0);
+              -o-transform: translate3d(0, 0, 0);
+                  transform: translate3d(0, 0, 0);
+      }
+
+      .slick-track
+      {
+          position: relative;
+          top: 0;
+          left: 0;
+          display: block;
+      }
+      .slick-track:before,
+      .slick-track:after
+      {
+          display: table;
+          content: '';
+      }
+      .slick-track:after
+      {
+          clear: both;
+      }
+      .slick-loading .slick-track
+      {
+          visibility: hidden;
+      }
+
+      .slick-slide
+      {
+          display: none;
+          float: left;
+          height: 100%;
+          min-height: 1px;
+      }
+      [dir='rtl'] .slick-slide
+      {
+          float: right;
+      }
+      .slick-slide img
+      {
+          display: block;
+      }
+      .slick-slide.slick-loading img
+      {
+          display: none;
+      }
+      .slick-slide.dragging img
+      {
+          pointer-events: none;
+      }
+      .slick-initialized .slick-slide
+      {
+          display: block;
+      }
+      .slick-loading .slick-slide
+      {
+          visibility: hidden;
+      }
+      .slick-vertical .slick-slide
+      {
+          display: block;
+          height: auto;
+          border: 1px solid transparent;
+      }
+      .slick-arrow.slick-hidden {
+          display: none;
+      }
+      .activity{
+        background: linear-gradient(to bottom, #EFEFEF 0%, #3BACB6 200%);
+      }
+      .partners{
+        margin-top: 5%;
+        margin-bottom: 5%;
+      }
     </style>
-  <section class="customers">
-    <div class="customer">
-      <h1 class="text-center dojo">Our Customers</h1>
-      <p class="text-center dojop">Over 40 organizations trust us with Insurance being essential at the heart of their business</p>
-      <div class="moja">
-        <img class="cust" src="static/assets/img/topchioce-removebg-preview.png" alt="">
-        <img class="cust cust1" src="static/assets/img/topchoice2-removebg-preview.png" alt="">
-      </div>
-      <div class="mbili">
-        <img class="cust dot" src="static/assets/img/adept-removebg-preview.png" alt="">
-        <img class="cust dot" src="static/assets/img/ruby-removebg-preview.png" alt="">
-      </div>
-    </div>
-  </section>
+ <div class="container-full activity"> 
+  <div class="container ">
+    <h2 class="partners">Our  Partners</h2>
+     <section class="customer-logos slider">
+        <div class="slide"><img src="static/assets/img/partner1-removebg-preview.png"></div>
+        <div class="slide"><img src="static/assets/img/partner3-removebg-preview.png"></div>
+        <div class="slide"><img src="static/assets/img/partner5-removebg-preview.png"></div>
+        <div class="slide"><img src="static/assets/img/parner6-removebg-preview.png"></div>
+        <div class="slide"><img src="static/assets/img/partner4-removebg-preview.png"></div>
+        <div class="slide"><img src="static/assets/img/partner2-removebg-preview.png"></div>
+     </section>
+  </div>
+
+  <div class="container">
+    <h2 class="partners">Our  Customers</h2>
+     <section class="customer-logos slider">
+        <div class="slide"><img src="static/assets/img/topchioce-removebg-preview.png"></div>
+        <div class="slide"><img src="static/assets/img/topchoice2-removebg-preview.png"></div>
+        <div class="slide"><img src="static/assets/img/customer1-removebg-preview.png"></div>
+        <div class="slide"><img src="static/assets/img/customer2-removebg-preview.png"></div>
+        <div class="slide"><img src="static/assets/img/customer3-removebg-preview.png"></div>
+        <div class="slide"><img src="static/assets/img/customer4-removebg-preview.png"></div>
+        <div class="slide"><img src="static/assets/img/adept-removebg-preview.png"></div>
+        <div class="slide"><img src="static/assets/img/ruby-removebg-preview.png"></div>
+     </section>
+  </div>
+</div>  
   <!-- end of customers  -->
   </main>
 
@@ -526,6 +669,9 @@
   <!-- All Script JS Plugins here  -->
   <!-- <script src="assets/js/vendor/popper.js" defer="defer"></script> -->
   <!-- <script src="assets/js/vendor/bootstrap.min.js" defer="defer"></script> -->
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   
   <script src="static/assets/js/plugins/swiper-bundle.min.js"></script>
   <script src="static/assets/js/plugins/glightbox.min.js"></script>
