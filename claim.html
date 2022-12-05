@@ -14,6 +14,7 @@
 
     <!-- ======= All CSS Plugins here ======== -->
     <link rel="stylesheet" href="static/assets/css/plugins/swiper-bundle.min.css" />
+    <link href="static/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="static/assets/css/plugins/glightbox.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet" />
 
@@ -275,7 +276,19 @@
             line-height: 200%;
             color: #000000;
         }
-        @media only screen and (max-width:767px) {
+        .red{
+            font-size: x-large;
+            line-height: 150%;
+            color: #000;
+            font-weight: 400;
+        }
+        .missing{
+            margin-top: 3%;
+            margin-bottom: 3%;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+        @media only screen and (max-width:500px ) {
             .toppper {
                 background-position: 60%;
                 height: 50vh;
@@ -291,12 +304,243 @@
             padding-left: 8%;
             }
         }
+        .tabs{
+            text-align: center;
+        }
+        .nav{
+            margin-left: 25%;
+            margin-bottom: 3%;
+        }
+        #tabs-content{
+            height: 70vh;
+            padding-bottom: 5%;
+        }
+        .sir{
+            padding-top: 1%;
+            padding-bottom: 1%;
+            padding-left: 2%;
+            padding-right: 2%;
+            border: 1px solid #B2B2B2;
+            background-color: #D8D8D8;
+        }
+        .sir:hover,.sir:active{
+            background-color: #3BACB6;
+            color: #fff;
+        }
+        .madam{
+            font-weight: 400;
+        }
+        .madam:hover{
+            color: #fff;
+        }
+        .kingi{
+            border-radius: 20px 0 0 20px;
+        }
+        .kongo{
+            border-radius:0 20px 20px 0;
+        }
+        .reddington{
+            display: flex;
+            margin-left: 10%;
+        }
+        .kulia,.kushoto{
+            width: 45%;
+            text-align: left;
+        }
+        .p,.t{
+            list-style-type: number;
+            line-height: 160%;
+        }
+        .q{
+            color: #3BACB6;
+            text-align: center;
+            margin-top: 2%;
+            margin-bottom: 2%;
+        }
+        @media only screen and (max-width:500px) {
+            .missing{
+                margin-top: 10%;
+                margin-bottom: 10%;
+            }
+            .red{
+                line-height: 150%;
+                font-size: large;
+                font-weight: 500;
+            }
+            #tabs-content{
+            height: auto;
+            padding-bottom: 15%;
+            }
+            .reddington{
+                display: block;
+                margin-left: 2%;
+                margin-right: 2%;
+            }
+            .kulia,.kushoto{
+                width: 100%;
+                text-align: left;
+            }
+            .nav{
+                margin-left: 2%;
+                margin-right: 0;
+            }
+            .sir{
+                padding-left: 1%;
+                padding-right: 1%;
+                line-height: 150%;
+            }
+            .madam{
+                font-size: small;
+            }
+        }
     </style>
         <section class="toppper">
             <div class="text-wrapped">
                 <p class="text-wrappedd">Make a claim fast and easy <br> with just a few steps.</p>
             </div>    
         </section>
+
+        <div class="container-full">
+            <div class="missing">
+                <p class="text-center red">These are the processes and requirements needed in making a claim.</p>
+            </div>
+            <div class="tabs">
+                <ul id="tabs-nav" class="nav">
+                  <li class="sir kingi"><a class="madam" href="#tab1">Motor</a></li>
+                  <li class="sir"><a class="madam" href="#tab2">Fire & Theft</a></li>
+                  <li class="sir"><a class="madam" href="#tab3">Personal/Group Accident</a></li>
+                  <li class="sir"><a class="madam" href="#tab4">Ordinary Life Claims</a></li>
+                  <li class="sir kongo"><a class="madam" href="#tab5">WIBA</a></li>
+                </ul> 
+                <div id="tabs-content">
+                  <div id="tab1" class="tab-content">
+                    <h2>Motor Insurance</h2>
+                    <div class="reddington">
+                        <div class="kulia">
+                            <h4 class="q">CLAIM PROCESS</h4>
+                            <ol>
+                                <li class="p">Report the accident or theft to the <strong>Police</strong> immediately but not later than <strong>24</strong> hours and obtain a police abstract</li>
+                                <li class="p">Report the accident to <strong>Erdem</strong> immediately through <strong>0727707030</strong></li>
+                                <li class="p">Do <strong>Not Accept</strong> liability in case of an accident</li>
+                                <li class="p">Call <strong>AA of Kenya</strong> on <strong>020 697 9000</strong> or <strong>0709 933 000</strong> if you need to tow the vehicle from the scene of the accident (for comprehensive insurance only)</li>
+                                <li class="p">Clear with the police and take the vehicle to any of our <strong>Recommended</strong> garages within Nairobi (if outside Nairobi take the vehicle to a garage of your choice) and <strong>Notify</strong> us.</li>
+                                <li class="p">Complete and return a claim form obtainable in all our offices and website.</li>
+                                <li class="p">Attach the <strong>Police Abstract</strong> and a <strong>copy of the driving license </strong> of the person who was driving the vehicle at the time of the accident or loss.</li>
+                            </ol>
+                        </div>
+                        <div class="kushoto">
+                            <h4 class="q">REQUIRED DOCUMENTS</h4>
+                            <ol>
+                            <li class="t">Original police abstract</li>
+                            <li class="t">Copy of the diving license for the person driving the vehicle during the accident</li>
+                            <li class="t">Policy excess</li>
+                            <li class="t">Assessor's report</li>
+                            </ol>
+                        </div>
+                    </div>
+                  </div>
+                  <div id="tab2" class="tab-content">
+                    <h2>Fire & Theft</h2>
+                    <div class="reddington">
+                        <div class="kulia">
+                            <h4 class="q">CLAIM PROCESS</h4>
+                            <ol>
+                                <li class="p">Report to the police immediately and obtain a police abstract</li>
+                                <li class="p">Report the loss to Erdem immediately through the given emergency or toll-free numbers</li>
+                                <li class="p">Complete and return a claim form obtainable in all our offices and web site giving the replacement cost of lost property</li>
+                                <li class="p">Attach a statement from a watchman/guard or any witnesses</li>
+                            </ol>
+                        </div>
+                        <div class="kushoto">
+                            <h4 class="q">REQUIRED DOCUMENTS</h4>
+                            <ol>
+                                <li class="t">Police abstract</li>
+                                <li class="t">Replacement quotation</li>
+                                <li class="t">Witness statement</li>
+                                <li class="t">Adjustment report</li>
+                            </ol>
+                        </div>
+                    </div>                  
+                    </div>
+                  <div id="tab3" class="tab-content">
+                    <h2>Personal/Group Accident</h2>
+                    <div class="reddington">
+                        <div class="kulia">
+                            <h4 class="q">CLAIM PROCESS</h4>
+                            <ol>
+                                <li class="p">Report the accident to Erdem immediately through the given emergency or toll-free numbers</li>
+                                <li class="p">Follow the same with a written notification as one awaits to heal</li>
+                                <li class="p">Complete and return a claim form obtainable in all our offices and web site attaching doctor's prescription and medical bills receipts after a clean bill of health</li>
+                                <li class="p">Attach a police abstract if it was a road traffic accident or assult</li>
+                                <li class="p">Attach copy of death certificate if the accident was fatal</li>
+                                <li class="p">Attach copies of pay slips for the previous three months before the accident if the cover is arranged on salary basis</li>
+                            </ol>
+                        </div>
+                        <div class="kushoto">
+                            <h4 class="q">REQUIRED DOCUMENTS</h4>
+                            <ol>
+                                <li class="t">PA/ PA</li>
+                                <li class="t">Original medical expenses receipts</li>
+                                <li class="t">Payslips for 3 months prior to the accident(for employees only)</li>
+                                <li class="t">Police Abstract if injuries are due to a road traffic accident or assault</li>
+                                <li class="p">Death certificate in case of a fatal accident</li>
+                            </ol>
+                        </div>
+                    </div>
+                  </div>
+                  <div id="tab4" class="tab-content">
+                    <h2>Ordinary Life Claims</h2>
+                    <div class="reddington">
+                        <div class="kulia">
+                            <h4 class="q">CLAIM PROCESS</h4>
+                            <ol>
+                                <li class="p">A client will first notify us in the event of death, accident, or diagnosis of a critical illness.</li>
+                                <li class="p">In the event of an incident leading to a claim.Notification can be done through email <strong>erdeminsuranceagency@gmail.com</strong> or <strong>WhatsApp</strong></li>
+                                <li class="p">Once notification is received, the client will be advised on the forms that need to be filled.</li>
+                                <li class="p">Once the documents are received, they will be analyzed and communication to the client will be done</li>
+                                <li class="p">Once all documents have been analyzed and found to be in order, the claim will be processed, and a discharge voucher will be provided to the claimant.</li>
+                                <li class="p">Payment of the claim will then follow</li>
+                            </ol>
+                        </div>
+                        <div class="kushoto">
+                            <h4 class="q">REQUIRED DOCUMENTS</h4>
+                            <p class="text-center">The required documents are dependent on the type of claim.</p>
+                            <p class="text-center mt-1">The forms have all the necessary documents needed clearly indicated on them. It’s also important to note that further documentation can be requested when the need arises.</p>
+                        </div>
+                    </div>                  
+                    </div>
+                  <div id="tab5" class="tab-content">
+                    <h2>WIBA</h2>
+                    <div class="reddington">
+                        <div class="kulia">
+                            <h4 class="q">CLAIM PROCESS</h4>
+                            <ol>
+                                <li class="p">Report the accident to Erdem immediately through the given emergency or toll-free numbers</li>
+                                <li class="p">Follow the same with a written notification as one awaits to heal</li>
+                                <li class="p">Complete and return a claim form obtainable in all our offices and website</li>
+                                <li class="p">Attach doctor's prescription and medical bills receipts</li>
+                                <li class="p">Attach form WIBA 1 & 4 obtained from labour office</li>
+                                <li class="p">Attach a police abstract if it was a road traffic accident or assault</li>
+                                <li class="p">Attach a copy of the death certificate if the accident was fatal</li>
+                                <li class="p">Attach copies of payslips for the previous three months before the accident if the cover is arranged on a salary basis</li>
+                            </ol>
+                        </div>
+                        <div class="kushoto">
+                            <h4 class="q">REQUIRED DOCUMENTS</h4>
+                            <ol>
+                                <li class="t">Forms LD 104, 105,180</li>
+                                <li class="t">Agreement between the employer and employee</li>
+                                <li class="t">Payslip for 3 months prior to the accident</li>
+                                <li class="t">Police Abstract</li>
+                                <li class="t">Death certificate where applicable</li>
+                                <li class="t">Original medical expenses receipts</li>
+                            </ol>
+                        </div>
+                    </div>
+                  </div>
+                </div> <!-- END tabs-content -->
+              </div> <!-- END tabs -->
+        </div>
     <!-- Start footer section -->
     <style>
         .titi {
@@ -458,7 +702,9 @@
     <!-- All Script JS Plugins here  -->
     <!-- <script src="assets/js/vendor/popper.js" defer="defer"></script> -->
     <!-- <script src="assets/js/vendor/bootstrap.min.js" defer="defer"></script> -->
-
+    
+    <script src="static/assets/js/jquery-3.6.0.min.js"></script>
+    <script src="static/assets/js/bootstrap.bundle.min.js"></script>
     <script src="static/assets/js/plugins/swiper-bundle.min.js"></script>
     <script src="static/assets/js/plugins/glightbox.min.js"></script>
 

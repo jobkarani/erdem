@@ -497,21 +497,19 @@ if (wrapper) {
         }), isCounted = !0)
     }))
 }
-const newsletterPopup = function() {
-    let newsletterWrapper = document.querySelector(".newsletter__popup"),
-        newsletterCloseButton = document.querySelector(".newsletter__popup--close__btn"),
-        dontShowPopup = document.querySelector("#newsletter__dont--show"),
-        popuDontShowMode = localStorage.getItem("newsletter__show");
-    newsletterWrapper && null == popuDontShowMode && window.addEventListener("load", event => {
-        setTimeout((function() {
-            document.body.classList.add("overlay__active"), newsletterWrapper.classList.add("newsletter__show"), document.addEventListener("click", (function(event) {
-                event.target.closest(".newsletter__popup--inner") || (document.body.classList.remove("overlay__active"), newsletterWrapper.classList.remove("newsletter__show"))
-            })), newsletterCloseButton.addEventListener("click", (function() {
-                document.body.classList.remove("overlay__active"), newsletterWrapper.classList.remove("newsletter__show")
-            })), dontShowPopup.addEventListener("click", (function() {
-                dontShowPopup.checked ? localStorage.setItem("newsletter__show", !0) : localStorage.removeItem("newsletter__show")
-            }))
-        }), 3e3)
-    })
-};
-newsletterPopup();
+
+// Show the first tab and hide the rest
+$('#tabs-nav li:first-child').addClass('active');
+$('.tab-content').hide();
+$('.tab-content:first').show();
+
+// Click function
+$('#tabs-nav li').click(function(){
+  $('#tabs-nav li').removeClass('active');
+  $(this).addClass('active');
+  $('.tab-content').hide();
+  
+  var activeTab = $(this).find('a').attr('href');
+  $(activeTab).fadeIn();
+  return false;
+});
