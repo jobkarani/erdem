@@ -515,8 +515,6 @@ $('#tabs-nav li').click(function(){
   $(activeTab).fadeIn();
   return false;
 });
-
-
 // customerssssssssssssssssssssssssssssssssssssssssss
 
 $(document).ready(function(){
