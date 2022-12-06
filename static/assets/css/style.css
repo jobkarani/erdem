@@ -3900,6 +3900,15 @@ input[type=number]::-webkit-outer-spin-button {
     }
 }
 
+.liz{
+    width: 50%;
+}
+
+@media only screen and (max-width:500px) {
+    .liz{
+        width: 100%;
+    }
+}
 
 .slider__content{
     margin-top: 5%;
@@ -6664,7 +6673,17 @@ input[type=number]::-webkit-outer-spin-button {
 
 @media only screen and (max-width:575px) {
     .shipping__items2--icon img {
-        width: 4rem
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .shipping__items2--icon img {
+        width: 70%;
+        text-align: center;
+    }
+    .shipping__items2--content__title{
+        margin-left: -30%;
     }
 }
 
@@ -8066,7 +8085,7 @@ input.quickview__value--number {
 }
 
 .about__thumb--img {
-    width: 100%
+    width: 100%;
 }
 
 .about__thumb--play {
