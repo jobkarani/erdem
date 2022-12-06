@@ -235,14 +235,30 @@
       .about__author{
         margin-top: 10%;
       }
-      /* .kate{
-        margin-right: 5%;
-      } */
+      .web{
+        visibility: visible;
+      }
+      .mobile{
+        visibility: hidden;
+      }
 
+      .nudde{
+        margin-top: -10%;
+      }
 
       @media only screen and (max-width:500px) {
       .about__author--left{
         margin-top: 10%;
+      }
+      .mobile{
+        visibility: visible;
+        padding-bottom: 10%;
+        text-align: center;
+      }
+      .web{
+        visibility: hidden;
+        height: 1vh;
+        margin-top: -30%;
       }
     }
 
@@ -253,6 +269,16 @@
       .activity{
         padding-bottom: 5%;
       }
+      .mobile{
+        visibility: visible;
+        padding-bottom: 10%;
+        text-align: center;
+      }
+      .web{
+        visibility: hidden;
+        height: 1vh;
+        margin-top: -10%;
+      }
     }
     @media only screen and (max-width:830px) {
       .about__thumb--items{
@@ -260,6 +286,16 @@
       }
       .activity{
         padding-bottom: 5%;
+      }
+      .mobile{
+        visibility: visible;
+        padding-bottom: 10%;
+        text-align: center;
+      }
+      .web{
+        visibility: hidden;
+        height: 1vh;
+        margin-top: -10%;
       }
     }
     </style>
@@ -271,10 +307,17 @@
             <div class="about__thumb">
               <div class="about__thumb--items">
                 <img class="about__thumb--img border-radius-5 display-block"
-                  src="https://img.freepik.com/free-photo/african-family-traditional-clothes-park_627829-5700.jpg?w=826&t=st=1669955226~exp=1669955826~hmac=9f7e4c29b78df73c4ae9eb8a3123f4d61dbe5156eb8642dabedac68d38eaff2e" />
+                  src="static/assets/img/jobkihiko.jpeg" />
+              </div>
+            </div>
+            <div class="position__relative align-items-center mobile">
+              <div class="about__author--left">
+                <h4 class="about__author--name">JOB KIHIKO MUGO</h4>
+                <span class="about__author--rank">Principle Officer</span>
               </div>
             </div>
           </div>
+
           <div class="col-lg-7 kate">
             <div class="about__content">
               <span class="about__content--subtitle text__secondary mb-20">
@@ -285,16 +328,11 @@
               <p class="about__content--desc mb-20">
                 Are you looking for a comprehensive insurance plan for your Businesses, Life insurance, Travel insurance, Motor insurance, Medical insurance or any other type of insurance? Erdem Insurance Agency got you covered. Erdem Insurance Agency provides both Corporate and Individual Insurance Solutions, tailor made to suite your needs. 
               </p>
-              <div class="about__author position__relative d-flex align-items-center">
-                <img class="about__author--signature display-block" 
-                src="static/assets/img/jobkihiko.jpeg" style="width:50%"
-                  alt="signature" />
-
+              <div class="about__author position__relative d-flex align-items-center web">
                 <div class="about__author--left">
                   <h4 class="about__author--name">JOB KIHIKO MUGO</h4>
                   <span class="about__author--rank">Principle Officer</span>
                 </div>
-                
               </div>
             </div>
           </div>
@@ -306,7 +344,7 @@
 
     
      <!-- Start shipping section -->
-     <section class="shipping__section2 shipping__style3 section--padding">
+     <section class="shipping__section2 shipping__style3 nudde section--padding">
         <div class="container">
             <div class="shipping__section2--inner shipping__style3--inner d-flex justify-content-between">
                 <div class="shipping__items2 d-flex align-items-center">
