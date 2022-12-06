@@ -2345,6 +2345,15 @@ body.overlay__active::before {
     list-style: none;
     max-height: 500px
 }
+@media only screen and (max-width:768px) {
+    .offcanvas__menu_ul {
+        overflow: auto;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        max-height: 1000px
+    }
+}
 
 .offcanvas__menu_li {
     position: relative;
@@ -6678,6 +6687,16 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 @media only screen and (max-width:768px) {
+    .shipping__items2--icon img {
+        width: 70%;
+        text-align: center;
+    }
+    .shipping__items2--content__title{
+        margin-left: -30%;
+    }
+}
+
+@media only screen and (max-width:830px) {
     .shipping__items2--icon img {
         width: 70%;
         text-align: center;
