@@ -235,16 +235,31 @@
       .about__author{
         margin-top: 10%;
       }
-      /* .kate{
-        margin-right: 5%;
-      } */
+      .web{
+        visibility: visible;
+      }
+      .mobile{
+        visibility: hidden;
+      }
 
+      .nudde{
+        margin-top: -10%;
+      }
 
       @media only screen and (max-width:500px) {
       .about__author--left{
         margin-top: 10%;
       }
-      
+      .mobile{
+        visibility: visible;
+        padding-bottom: 10%;
+        text-align: center;
+      }
+      .web{
+        visibility: hidden;
+        height: 1vh;
+        margin-top: -30%;
+      }
     }
 
     @media only screen and (max-width:768px) {
@@ -254,6 +269,16 @@
       .activity{
         padding-bottom: 5%;
       }
+      .mobile{
+        visibility: visible;
+        padding-bottom: 10%;
+        text-align: center;
+      }
+      .web{
+        visibility: hidden;
+        height: 1vh;
+        margin-top: -10%;
+      }
     }
     @media only screen and (max-width:830px) {
       .about__thumb--items{
@@ -261,6 +286,16 @@
       }
       .activity{
         padding-bottom: 5%;
+      }
+      .mobile{
+        visibility: visible;
+        padding-bottom: 10%;
+        text-align: center;
+      }
+      .web{
+        visibility: hidden;
+        height: 1vh;
+        margin-top: -10%;
       }
     }
     </style>
@@ -275,7 +310,14 @@
                   src="static/assets/img/jobkihiko.jpeg" />
               </div>
             </div>
+            <div class="position__relative align-items-center mobile">
+              <div class="about__author--left">
+                <h4 class="about__author--name">JOB KIHIKO MUGO</h4>
+                <span class="about__author--rank">Principle Officer</span>
+              </div>
+            </div>
           </div>
+
           <div class="col-lg-7 kate">
             <div class="about__content">
               <span class="about__content--subtitle text__secondary mb-20">
@@ -286,12 +328,11 @@
               <p class="about__content--desc mb-20">
                 Are you looking for a comprehensive insurance plan for your Businesses, Life insurance, Travel insurance, Motor insurance, Medical insurance or any other type of insurance? Erdem Insurance Agency got you covered. Erdem Insurance Agency provides both Corporate and Individual Insurance Solutions, tailor made to suite your needs. 
               </p>
-              <div class="about__author position__relative d-flex align-items-center">
+              <div class="about__author position__relative d-flex align-items-center web">
                 <div class="about__author--left">
                   <h4 class="about__author--name">JOB KIHIKO MUGO</h4>
                   <span class="about__author--rank">Principle Officer</span>
                 </div>
-                
               </div>
             </div>
           </div>
@@ -303,7 +344,7 @@
 
     
      <!-- Start shipping section -->
-     <section class="shipping__section2 shipping__style3 section--padding">
+     <section class="shipping__section2 shipping__style3 nudde section--padding">
         <div class="container">
             <div class="shipping__section2--inner shipping__style3--inner d-flex justify-content-between">
                 <div class="shipping__items2 d-flex align-items-center">
