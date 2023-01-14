@@ -2986,6 +2986,34 @@ body.overlay__active::before {
     font-weight: 700;
 }
 
+.chinii{
+    padding: 40px 0;
+}
+
+.quot{
+    text-align: left;
+}
+
+.quote-btnn{
+    color: #3BACB6;
+    border: 1px solid #3ebbc4;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.quote-btnn:hover{
+    color: #fff;
+    background-color: #3ebbc4;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+@media only screen and (max-width: 500px) {
+    .quot{
+        text-align: center;
+    }
+}
 .header__menu--link{
     font-weight: 700;
     font-size: 1.5rem;
