@@ -55,7 +55,7 @@ html {
 }
 
 body {
-    font-family: var(--font-jost);
+    /* font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; */
     font-size: var(--body-font-size, 1.6rem);
     font-weight: var(--body-font-weight);
     font-style: normal;
@@ -88,7 +88,7 @@ h1 {
 }
 
 @media only screen and (max-width:500px) {
-    .elfsight-app-844e85ea-0143-412a-9154-93cd04d325dd{
+    .elfsight-app-d61702e6-290d-47f9-b508-2b40fc1dfc5d{
         margin-right: 50%;
     }
 }
@@ -388,6 +388,7 @@ hr {
 
 .alchemist{
     font-size: smaller;
+    text-align: center;
 }
 .emist{
     color: #fff;
@@ -2283,7 +2284,7 @@ body.overlay__active::before {
 
 .offcanvas__inner {
     position: relative;
-    height: 100%
+    height: 100%;
 }
 
 .offcanvas__logo {
@@ -2342,7 +2343,26 @@ body.overlay__active::before {
     margin: 0;
     padding: 0;
     list-style: none;
-    max-height: 300px
+    max-height: 500px
+}
+@media only screen and (max-width:768px) {
+    .offcanvas__menu_ul {
+        overflow: auto;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        max-height: 1000px
+    }
+}
+
+@media only screen and (max-width:830px) {
+    .offcanvas__menu_ul {
+        overflow: auto;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        max-height: 1000px
+    }
 }
 
 .offcanvas__menu_li {
@@ -2923,16 +2943,103 @@ body.overlay__active::before {
 }
 
 .header__menu--items {
-    margin-left: 5%;
     position: relative
 }
 
 .header__menu--navigation{
-    width: 1500px;
+    display: flex;
+    width: 100%;
+    padding: 0;
+    margin: 0;
 }
 
+.imggs{
+    width: 10%;
+}
+
+.imggs>img{
+    height: 10vh;
+}
+
+.header__menu--navigation>.d-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 10px 40px;
+    width: 100%;
+}
+
+.d-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+}
+
+.quote{
+    width: 10%;
+    margin: 20px 0;
+}
+
+.quote-btn{
+    color: #3BACB6;
+    border: 1px solid #3ebbc4;
+    padding: 5px 10px;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.quote-btn:hover{
+    color: #fff;
+    background-color: #3ebbc4;
+    padding: 5px 10px;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.chinii{
+    padding: 40px 0;
+}
+
+.quot{
+    text-align: left;
+}
+
+.quote-btnn{
+    color: #3BACB6;
+    border: 1px solid #3ebbc4;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.quote-btnn:hover{
+    color: #fff;
+    background-color: #3ebbc4;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+@media only screen and (max-width: 500px) {
+    .quot{
+        text-align: center;
+    }
+}
 .header__menu--link{
-    font-weight: 800;
+    font-weight: 700;
+    font-size: medium;
+}
+
+@media only screen and (min-width:768px) {
+    .main__header {
+        padding: 1.5rem 0
+    }
+}
+
+@media only screen and (min-width:992px) {
+    .main__header {
+        padding: 2rem 0
+    }
 }
 
 @media only screen and (min-width:768px) {
@@ -3407,7 +3514,7 @@ body.overlay__active::before {
 
 @media only screen and (min-width:1200px) {
     .header__menu--link {
-        font-size: 1.7rem;
+        font-size: 1.5rem;
         padding: 16px 0
     }
 }
@@ -3417,6 +3524,8 @@ body.overlay__active::before {
         padding: 20px 0
     }
 }
+
+
 
 .menu__arrowdown--icon {
     margin-left: 3px
@@ -3898,6 +4007,19 @@ input[type=number]::-webkit-outer-spin-button {
     }
 }
 
+.liz{
+    width: 50%;
+}
+
+.rech{
+    width: 60%;
+}
+
+@media only screen and (max-width:500px) {
+    .liz{
+        width: 50% !important;
+    }
+}
 
 .slider__content{
     margin-top: 5%;
@@ -3912,8 +4034,12 @@ input[type=number]::-webkit-outer-spin-button {
 }
 @media only screen and (max-width:767px) {
     .slider__content{
-        margin-left: 0%;
         margin-top: 30%;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-top: 10%;
+        padding-bottom: 10%;
+        background: rgb(255,255,255,0.5);
     }
     .XXX{
         color: #fff;
@@ -6624,13 +6750,30 @@ input[type=number]::-webkit-outer-spin-button {
 
 @media only screen and (min-width:1200px) {
     .shipping__items2--content__title {
+        margin-left: -50%;
         font-size: 1.8rem
     }
 }
 
+@media only screen and (max-width:500px) {
+    .shipping__items2--content__title {
+        margin-left: -50%;
+        font-size: 1.8rem
+    }
+}
+
+
+.shipping__items2--content{
+    width: 50%;
+}
+.shipping__items2--icon{
+    width: 50%;
+}
+
 .shipping__items2--content__desc {
     font-size: 1.2rem;
-    color: var(--sky-color)
+    color: var(--sky-color);
+    margin-left: -50%;
 }
 
 @media only screen and (min-width:768px) and (max-width:991px) {
@@ -6645,7 +6788,27 @@ input[type=number]::-webkit-outer-spin-button {
 
 @media only screen and (max-width:575px) {
     .shipping__items2--icon img {
-        width: 4rem
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .shipping__items2--icon img {
+        width: 70%;
+        text-align: center;
+    }
+    .shipping__items2--content__title{
+        margin-left: -30%;
+    }
+}
+
+@media only screen and (max-width:830px) {
+    .shipping__items2--icon img {
+        width: 70%;
+        text-align: center;
+    }
+    .shipping__items2--content__title{
+        margin-left: -30%;
     }
 }
 
@@ -6810,9 +6973,9 @@ input[type=number]::-webkit-outer-spin-button {
     }
 }
 
-@media only screen and (max-width:991px) {
+@media only screen and (max-width:500px) {
     .footer__section {
-        padding-bottom: 7rem;
+        padding-bottom: 2%;
     }
 }
 
@@ -8024,7 +8187,12 @@ input.quickview__value--number {
 
 .about__thumb--items {
     margin-right: 2rem;
-    width: 50%
+    width: 80%
+}
+@media only screen and (max-width:500px) {
+    .about__thumb--items {
+        width: 100%
+    }
 }
 
 .about__thumb--items:last-child {
@@ -8042,7 +8210,7 @@ input.quickview__value--number {
 }
 
 .about__thumb--img {
-    width: 100%
+    width: 100%;
 }
 
 .about__thumb--play {
@@ -8116,7 +8284,7 @@ input.quickview__value--number {
     .about__author {
         -webkit-box-pack: center;
         -ms-flex-pack: center;
-        justify-content: center
+        justify-content: center;
     }
 }
 
